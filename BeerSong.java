@@ -15,10 +15,16 @@ public class BeerSong {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      Ninety_Nine_Bottles_of_Beer(); 
+      Ninety_Nine_Bottles_of_Beer(99); 
     }
     
-    public static void Ninety_Nine_Bottles_of_Beer(){
+    public static void Ninety_Nine_Bottles_of_Beer(int x){
+		if(x>0){
+            System.out.print(x +" bottles of beer on the wall, ");
+            System.out.println(x +" bottles of beer, ");
+            System.out.println("take one down, pass it around");
+            System.out.println((x-1)+" bottles of beer on the wall");
+            Ninety_Nine_Bottles_of_Beer(x-1);
          
         
     }
