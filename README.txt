@@ -1,3 +1,7 @@
+Configuration	Management	Assignment
+CIT/CSE	337
+DUE	DATE:	Jan 30th,	2017
+
 In this assignment, you demonstrate your understanding of and ability to use GIT for managing your project codebase. Create a remote repository on the same machine (or on GitHub) for managing your master/origin and other branch. (Students may choose their implementation language other the JAVA).
  Steps to perform (This is a guideline. They may not map in your exact workflow): 
 1. Create a new folder for this assignment. 
